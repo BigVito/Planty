@@ -33,6 +33,7 @@ gem 'omniauth-linkedin'
 gem 'activeadmin', '~> 1.0.0.pre2'
 
 gem 'pg'
+gem 'carrierwave'
 
 group :development, :test do
   gem 'better_errors'
