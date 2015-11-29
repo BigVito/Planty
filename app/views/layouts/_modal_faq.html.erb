@@ -1,0 +1,117 @@
+<!-- <div class="col-md-3 hidden-sm hidden-xs book-grey"> -->
+		<div id="icons" class="grey-premier">
+			<div class="icon-s">
+				<i class="h h-handshake grey-image"></i>
+				<p class="grey-text">
+					Competenza ed affidabilità
+				</p>
+			</div>
+			<div class="icon-s">
+				<i class="h h-clock grey-image"></i>
+				<p class="grey-text mov">
+					Sempre al tuo servizio
+				</p>
+			</div>
+			<div class="icon-s">
+				<i class="h h-heart grey-image"></i>
+				<p class="grey-text">
+					Passione per il dettaglio
+				</p>
+			</div>
+		</div>
+		<div class="box-white" id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="slider">
+		  	<ul class="questions">
+			  	  <li class="panel single">
+				    <div role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="non-decoration">
+				          <b>Cos’è incluso in un servizio di pulizia?</b>
+				        </a>
+				      </h4>
+				    </div>
+				   </li>
+				  <li class="panel single">
+				    <div role="tab" id="headingTwo">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" class="non-decoration">
+				          <b>Come viene calcolato il prezzo?</b>
+				        </a>
+				      </h4>
+				    </div>
+				  </li>
+				  <li class="panel single">
+				    <div role="tab" id="headingThree">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree" class="non-decoration">
+				          <b>Si può cancellare o modificare la prenotazione?</b>
+				        </a>
+				      </h4>
+				    </div>
+				  </li>
+				  <li class="panel single">
+				    <div role="tab" id="headingFour">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour" class="non-decoration">
+				          <b>Chi verrà a casa mia a fare le pulizie?</b>
+				        </a>
+				      </h4>
+				    </div>
+				  </li>
+				  <li class="panel single">
+				    <div role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive" class="non-decoration">
+				          <b>Perchè non posso prenotare nel giorno e nell’ora che ho scelto?</b>
+				        </a>
+				      </h4>
+				    </div>
+				  </li>
+				  <li class="panel single">
+				    <div role="tab" id="headingOne">
+				      <h4 class="panel-title">
+				        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix" class="non-decoration">
+				          <b>Ho bisogno di più aiuto.</b>
+				        </a>
+				      </h4>
+				    </div>
+				  </li>
+			  </ul>
+			  <button class="switch-control md-button md-default-theme">
+		  	  	<i class="fa fa-chevron-left"></i>
+		  	  </button>
+			  <div class="answer">
+			  	  <div id="collapseOne" class="panel-collapse collapse desplegable" role="tabpanel" aria-labelledby="headingOne">
+			     	<div class="panel-body">
+			        	In ogni pulizia sono inclusi <%= link_to "questi", cleaning_services_path, target: "_blank" %> servizi base e tutti i servizi extra che sceglierai tra quelli proposti, come la stiratura e la pulizia delle finestre.
+			      	</div>
+			      </div>
+			      <div id="collapseTwo" class="panel-collapse collapse desplegable" role="tabpanel" aria-labelledby="headingTwo">
+					<div class="panel-body">
+						Il prezzo è calcolato moltiplicando il numero totale di ore per la tariffa oraria e cambia a seconda della frequenza con cui si desidera ricevere il servizio. I nostri abbonamenti ti faranno risparmiare! Per una pulizia più profonda offriamo anche i servizi extra elencati al termine del processo di prenotazione, il cui costo orario è lo stesso del servizio ordinario.
+					</div>
+				  </div>
+			      <div id="collapseThree" class="panel-collapse collapse desplegable" role="tabpanel" aria-labelledby="headingThree">
+					<div class="panel-body">
+						E’ facile cancellare e modificare la propria prenotazione dalla propria pagina personale sul sito. Modifiche e cancellazioni non comportano alcun costo se fatte almeno 48 ore prima dell’appuntamento. Entro le 48 ore è comunque possibile cancellare o modificare la prenotazione pagando 10€.
+					</div>
+				  </div>
+			      <div id="collapseFour" class="panel-collapse collapse desplegable" role="tabpanel" aria-labelledby="headingFour">
+					<div class="panel-body">
+				    	Tutti i nostri collaboratori sono abili ed amichevoli professionisti della pulizia selezionati accuratamente tramite un processo individuale e sulla base della soddisfazione dei clienti. Ti invieremo il professionista più adatto disponibile e, prima dell’appuntamento, riceverai una email con tutti i dettagli della persona che si occuperà della pulizia di casa tua.
+				    </div>
+				  </div>
+			      <div id="collapseFive" class="panel-collapse collapse desplegable" role="tabpanel" aria-labelledby="headingFive">
+			      	<div class="panel-body">
+			        	Facciamo tutto il possibile per avere sempre qualcuno disponibile per le tue esigenze. Può capitare, in orari o giorni di altissima domanda, che le prenotazioni vengano limitate, in quei casi ti aiuteremo a trovare una nuova data dove possiamo garantire che i nostri professionisti abbiano il tempo necessario a rispondere alle tue richieste.
+			      	</div>
+			      </div>
+			      <div id="collapseSix" class="panel-collapse collapse desplegable" role="tabpanel" aria-labelledby="headingFSix">
+					<div class="panel-body">
+						Se hai altre domande siamo a tua disposizione! Contattaci pure tramite la chat, al numero 02.2399.2983 o via WhatsApp al 393-8358865. Visita anche la nostra sezione <%= link_to "FAQ", faq_path, target: "_blank" %> per altre risposte che abbiamo provato ad anticipare.
+					</div>
+				  </div>
+			  </div>
+		  </div>
+		</div>
+	<!-- </div> -->

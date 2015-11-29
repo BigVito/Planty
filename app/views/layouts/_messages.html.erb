@@ -1,0 +1,10 @@
+<% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <div class="row mesagge-error">
+	    <div class="text-center error-data alert alert-<%= name.to_sym == :notice ? "success" : "danger" %>">
+			<a class="close" data-dismiss="alert">&#215;</a>
+			<%= content_tag :div, msg.html_safe, :id => "flash_#{name}" %>
+    	</div>
+    </div>
+  <% end %>
+<% end %>
